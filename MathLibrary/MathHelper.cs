@@ -19,8 +19,6 @@ namespace MathLibrary
             {
                 return y;
             }
-
-            throw new NotImplementedException("Write tests!");
         }
     }
 }
