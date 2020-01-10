@@ -10,7 +10,17 @@ namespace MathLibrary
             {
                 return x;
             }
-            throw new NotImplementedException("Write tests!")
+
+            if (x > y)
+            {
+                return x;
+            } 
+            else
+            {
+                return y;
+            }
+
+            throw new NotImplementedException("Write tests!");
         }
     }
 }
